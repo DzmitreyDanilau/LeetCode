@@ -11,6 +11,7 @@ fun main() {
 }
 
 // Complexity O(n)
+// Memory complexity O(n)
 fun getDesiredIndexes(nums: Array<Int>, targetSum: Int): IntArray? {
 
     val map = hashMapOf<Int, Int>()
